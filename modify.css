@@ -1,0 +1,134 @@
+/* ------------------------------------------------------ 调整文生图部分界面 开始 */
+/* 调整反向提示词框的默认高度 */
+#txt2img_neg_prompt textarea {
+  min-height: 87px;
+}
+/* ------------------------------------------------------ 调整文生图部分界面 结束 */
+
+/* ------------------------------------------------------ 调整图生图部分界面 开始 */
+/* 调整插件间的间距 */
+#img2img_script_container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#img2img_script_container > * {
+  margin-top: 15px;
+}
+#img2img_script_container #script_list {
+  margin-top: 20px;
+}
+
+/* 调整反推提示词部分的样式 */
+#interrogate_col {
+  white-space: pre-line;
+}
+#interrogate_col .bilingual__trans_wrapper em {
+  margin-top: 4px;
+}
+
+/* 调整反向提示词框的默认高度 */
+#img2img_neg_prompt textarea {
+  min-height: 87px;
+}
+/* ------------------------------------------------------ 调整图生图部分界面 结束 */
+
+/* ------------------------------------------------------ 调整部分TabItem Content Padding 开始 */
+#tab_openpose_editor {
+  padding-top: 25px;
+}
+#tab_ti {
+  padding-top: 18px;
+}
+/* ------------------------------------------------------ 调整部分TabItem Content Padding 结束 */
+
+/* ------------------------------------------------------ 调整顶部模型选择框的样式 开始 */
+#setting_sd_model_checkpoint .bilingual__trans_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+}
+#setting_sd_model_checkpoint .bilingual__trans_wrapper em {
+  margin-left: 6px;
+}
+/* ------------------------------------------------------ 调整顶部模型选择框的样式 结束 */
+
+/* ------------------------------------------------------ 调整顶部Tabs 开始 */
+#tabs button.bg-white {
+  border-bottom: 2px solid var(--accent) !important;
+}
+/* ------------------------------------------------------ 调整顶部Tabs 结束 */
+
+/* ------------------------------------------------------ 调整模型展示部分 开始 */
+.extra-network-cards .card {
+  width: 12em;
+  height: 17em;
+}
+.extra-network-cards .card .actions .name {
+  font-size: 1.35em;
+}
+/* ------------------------------------------------------ 调整模型展示部分 结束 */
+
+/* ------------------------------------------------------ 调整Civitai Helper 开始 */
+.actions .additional ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.actions .additional ul > * {
+  margin: 0 !important;
+  padding: 0 5px !important;
+  font-size: 14px !important;
+}
+/* ------------------------------------------------------ 调整Civitai Helper 结束 */
+
+/* ------------------------------------------------------ 调整模型预览部分 开始 */
+.extra-network-cards .card:hover {
+  box-shadow: 0 0 0 2px var(--accent);
+}
+/* ------------------------------------------------------ 调整模型预览部分 结束 */
+
+/* ------------------------------------------------------ 调整生成按钮下工具区域 开始 */
+#txt2img_tools,
+#img2img_tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+/* ------------------------------------------------------ 调整生成按钮下工具区域 结束 */
+
+/* ------------------------------------------------------ 调整模板风格 开始 */
+#txt2img_styles > label > div > div > div,
+#img2img_styles > label > div > div > div {
+  min-height: 40px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#txt2img_styles input,
+#img2img_styles input {
+  flex-grow: 1;
+}
+
+#txt2img_styles .bilingual__trans_wrapper,
+#img2img_styles .bilingual__trans_wrapper {
+    min-height: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+
+#txt2img_styles .bilingual__trans_wrapper em,
+#img2img_styles .bilingual__trans_wrapper em {
+    margin-left: 6px;
+}
+/* ------------------------------------------------------ 调整模板风格 结束 */

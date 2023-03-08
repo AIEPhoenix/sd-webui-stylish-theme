@@ -1,36 +1,35 @@
-:root,
-*,
-#context-menu {
-  --rosewater: #f5e0dc;
-  --flamingo: #f2cdcd;
-  --pink: #f5c2e7;
-  --mauve: #cba6f7;
-  --red: #f38ba8;
-  --maroon: #eba0ac;
-  --peach: #fab387;
-  --yellow: #f9e2af;
-  --green: #a6e3a1;
-  --teal: #94e2d5;
-  --sky: #89dceb;
-  --sapphire: #74c7ec;
-  --lavender: #b4befe;
-  --blue: #89b4fa;
-  --text: #cdd6f4;
-  --subtext1: #bac2de;
-  --subtext0: #a6adc8;
-  --overlay2: #9399b2;
-  --overlay1: #7f849c;
-  --overlay0: #6c7086;
-  --surface2: #585b70;
-  --surface1: #45475a;
-  --surface0: #313244;
-  --base: #1e1e2e;
-  --mantle: #181825;
-  --crust: #11111b;
-  --shadow: #010409;
+:root, *, #context-menu{
+  --rosewater: #dc8a78;
+  --flamingo: #dd7878;
+  --pink: #ea76cb;
+  --mauve: #8839ef;
+  --red: #d20f39;
+  --maroon: #e64553;
+  --peach: #fe640b;
+  --yellow: #df8e1d;
+  --green: #40a02b;
+  --teal: #179299;
+  --sky: #04a5e5;
+  --sapphire: #209fb5;
+  --blue: #1e66f5;
+  --lavender: #7287fd;
+  --text: #4c4f69;
+  --subtext1: #5c5f77;
+  --subtext0: #6c6f85;
+  --overlay2: #7c7f93;
+  --overlay1: #8c8fa1;
+  --overlay0: #9ca0b0;
+  --surface2: #acb0be;
+  --surface1: #bcc0cc;
+  --surface0: #ccd0da;
+  --base: #eff1f5;
+  --mantle: #e6e9ef;
+  --crust: #dce0e8;
+  --shadow: #dbdfef;
   --accent: var(--maroon);
-  color-scheme: dark;
+   color-scheme: light;
 }
+
 select, option {
   background-color: var(--base);
 }
@@ -102,6 +101,7 @@ textarea, .gr-text-input {
   background-color: var(--base);
 }
 
+.dark .gr-check-radio:focus,  .gr-check-radio:focus,
 .dark .gr-check-radio:checked, .gr-check-radio:checked {
   background-color: var(--accent);
 }
@@ -563,3 +563,137 @@ input[type="range"]:disabled::-moz-range-thumb {
 
 /* all of the input range stuff is from this guy*/
 /* Shout out to them https://codepen.io/ShadowShahriar/pen/zYPPYrQ */
+/* ------------------------------------------------------ 调整文生图部分界面 开始 */
+/* 调整反向提示词框的默认高度 */
+#txt2img_neg_prompt textarea {
+  min-height: 87px;
+}
+/* ------------------------------------------------------ 调整文生图部分界面 结束 */
+
+/* ------------------------------------------------------ 调整图生图部分界面 开始 */
+/* 调整插件间的间距 */
+#img2img_script_container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#img2img_script_container > * {
+  margin-top: 15px;
+}
+#img2img_script_container #script_list {
+  margin-top: 20px;
+}
+
+/* 调整反推提示词部分的样式 */
+#interrogate_col {
+  white-space: pre-line;
+}
+#interrogate_col .bilingual__trans_wrapper em {
+  margin-top: 4px;
+}
+
+/* 调整反向提示词框的默认高度 */
+#img2img_neg_prompt textarea {
+  min-height: 87px;
+}
+/* ------------------------------------------------------ 调整图生图部分界面 结束 */
+
+/* ------------------------------------------------------ 调整部分TabItem Content Padding 开始 */
+#tab_openpose_editor {
+  padding-top: 25px;
+}
+#tab_ti {
+  padding-top: 18px;
+}
+/* ------------------------------------------------------ 调整部分TabItem Content Padding 结束 */
+
+/* ------------------------------------------------------ 调整顶部模型选择框的样式 开始 */
+#setting_sd_model_checkpoint .bilingual__trans_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+}
+#setting_sd_model_checkpoint .bilingual__trans_wrapper em {
+  margin-left: 6px;
+}
+/* ------------------------------------------------------ 调整顶部模型选择框的样式 结束 */
+
+/* ------------------------------------------------------ 调整顶部Tabs 开始 */
+#tabs button.bg-white {
+  border-bottom: 2px solid var(--accent) !important;
+}
+/* ------------------------------------------------------ 调整顶部Tabs 结束 */
+
+/* ------------------------------------------------------ 调整模型展示部分 开始 */
+.extra-network-cards .card {
+  width: 12em;
+  height: 17em;
+}
+.extra-network-cards .card .actions .name {
+  font-size: 1.35em;
+}
+/* ------------------------------------------------------ 调整模型展示部分 结束 */
+
+/* ------------------------------------------------------ 调整Civitai Helper 开始 */
+.actions .additional ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.actions .additional ul > * {
+  margin: 0 !important;
+  padding: 0 5px !important;
+  font-size: 14px !important;
+}
+/* ------------------------------------------------------ 调整Civitai Helper 结束 */
+
+/* ------------------------------------------------------ 调整模型预览部分 开始 */
+.extra-network-cards .card:hover {
+  box-shadow: 0 0 0 2px var(--accent);
+}
+/* ------------------------------------------------------ 调整模型预览部分 结束 */
+
+/* ------------------------------------------------------ 调整生成按钮下工具区域 开始 */
+#txt2img_tools,
+#img2img_tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+/* ------------------------------------------------------ 调整生成按钮下工具区域 结束 */
+
+/* ------------------------------------------------------ 调整模板风格 开始 */
+#txt2img_styles > label > div > div > div,
+#img2img_styles > label > div > div > div {
+  min-height: 40px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#txt2img_styles input,
+#img2img_styles input {
+  flex-grow: 1;
+}
+
+#txt2img_styles .bilingual__trans_wrapper,
+#img2img_styles .bilingual__trans_wrapper {
+    min-height: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+
+#txt2img_styles .bilingual__trans_wrapper em,
+#img2img_styles .bilingual__trans_wrapper em {
+    margin-left: 6px;
+}
+/* ------------------------------------------------------ 调整模板风格 结束 */

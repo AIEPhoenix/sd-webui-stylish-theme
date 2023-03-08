@@ -1,38 +1,10 @@
-<h3 align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">Stable Diffusion Web UI</a>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-</h3>
+## This is a modified theme based on catppuccin's [theme](https://github.com/catppuccin/stable-diffusion-webui) and incorporating design elements from canisminor1990's [kitchen-theme](https://github.com/canisminor1990/sd-web-ui-kitchen-theme). We are immensely grateful to the authors of both repositories for their excellent work. 
+
 
 <p align="center">
-	<a href="https://github.com/catppuccin/Stable-Diffusion-Web-Ui/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/Stable-Diffusion-Web-Ui?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/Stable-Diffusion-Web-Ui/issues"><img src="https://img.shields.io/github/issues/catppuccin/Stable-Diffusion-Web-Ui?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/Stable-Diffusion-Web-Ui/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/Stable-Diffusion-Web-Ui?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<img src="https://github.com/AIEPhoenix/sd-webui-stylish-theme/blob/main/assets/res.png"/>
 </p>
 
-<p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/Stable-Diffusion-Web-Ui/main/assets/res.webp"/>
-</p>
-
-## Previews
-
-<details>
-<summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/Stable-Diffusion-Web-Ui/main/assets/latte.png"/>
-</details>
-<details>
-<summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/Stable-Diffusion-Web-Ui/main/assets/frappe.png"/>
-</details>
-<details>
-<summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/Stable-Diffusion-Web-Ui/main/assets/macchiato.png"/>
-</details>
-<details>
-<summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/Stable-Diffusion-Web-Ui/main/assets/mocha.png"/>
-</details>
 
 ## Usage
 ### Extension (Recommended)
@@ -43,22 +15,6 @@
 5. Go to "Installed" subsection and click "Apply and restart UI"
 6. Configure the theme from the "Settings" tab under "Catppuccin Theme", afterwards you must "Apply Settings" and "Reload UI"
 
-### Extension (Extension index)
-NOTE: This method will install the theme under the name "stable-diffusion-webui". You can read more about this issue in the next section. 
-1. Open WebUI
-2. Click on the "Extensions" tab and navigate to "Available"
-3. Click "Load From:" and find and install "Catppuccin Theme" from the list 
-4. Go to "Installed" subsection and click "Apply and restart UI"
-5. Configure the theme from the "Settings" tab under "Catppuccin Theme", afterwards you must "Apply Settings" and "Reload UI"
-
-### Add directly
-1. Clone this repository locally
-2. Create the file `user.css` in your stable-diffusion-webui directory
-3. Copy the contents of the desired flavor into `user.css`
-4. Restart the Web UI or click "Reload UI" at the bottom of the screen
-
-## NOTE
-Due to catppuccin naming conventions and limitations in webui's extension names, this extension will come up as "stable-diffusion-webui" in the extension update section. I have proposed a solution to WebUI [here](https://github.com/catppuccin/stable-diffusion-webui/issues/5#issuecomment-1420599298), feel free to upvote it increase the chances of this issue being resolved. 
 
 ## 🙋 FAQ
 
@@ -81,16 +37,10 @@ Due to catppuccin naming conventions and limitations in webui's extension names,
 ## 💝 Thanks to
 
 - [Kettukaa](https://github.com/Kettukaa)
+- [catppuccin](https://github.com/catppuccin)
+- [canisminor1990](https://github.com/canisminor1990)
 
 &nbsp;
-
-<p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
-</p>
-
-<p align="center">
-	Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
-</p>
 
 <p align="center">
 	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>

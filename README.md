@@ -1,6 +1,13 @@
 ## This is a modified theme based on [catppuccin's theme](https://github.com/catppuccin/stable-diffusion-webui) and incorporating design elements from [canisminor1990's kitchen-theme](https://github.com/canisminor1990/sd-web-ui-kitchen-theme). We are immensely grateful to the authors of both repositories for their excellent work. 
 
 
+### In addition to making some stylistic modifications, we have also made the following optimizations for the combined use of extensions:
+
+
+- Fixed display issues when used in conjunction with the sd-webui-bilingual-localization extension.
+- Resolved style issues with the actions button that arose due to adjustments in the size of extra model display items when used with the Stable-Diffusion-Webui-Civitai-Helper extension.
+
+
 <p align="center">
 	<img src="https://github.com/AIEPhoenix/sd-webui-stylish-theme/blob/main/assets/res.png"/>
 </p>

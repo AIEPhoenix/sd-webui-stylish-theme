@@ -4,8 +4,8 @@
 ### In addition to making some stylistic modifications, we have also made the following optimizations for the combined use of extensions:
 
 
-- Fixed display issues when used in conjunction with the sd-webui-bilingual-localization extension.
-- Resolved style issues with the actions button that arose due to adjustments in the size of extra model display items when used with the Stable-Diffusion-Webui-Civitai-Helper extension.
+- Fixed display issues when used in conjunction with the [sd-webui-bilingual-localization](https://github.com/journey-ad/sd-webui-bilingual-localization) extension.
+- Resolved style issues with the actions button that arose due to adjustments in the size of extra model display items when used with the [Stable-Diffusion-Webui-Civitai-Helper](https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper) extension.
 
 
 <p align="center">

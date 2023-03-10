@@ -1,4 +1,4 @@
-## This is a modified theme based on catppuccin's [theme](https://github.com/catppuccin/stable-diffusion-webui) and incorporating design elements from canisminor1990's [kitchen-theme](https://github.com/canisminor1990/sd-web-ui-kitchen-theme). We are immensely grateful to the authors of both repositories for their excellent work. 
+## This is a modified theme based on [catppuccin's theme](https://github.com/catppuccin/stable-diffusion-webui) and incorporating design elements from [canisminor1990's kitchen-theme](https://github.com/canisminor1990/sd-web-ui-kitchen-theme). We are immensely grateful to the authors of both repositories for their excellent work. 
 
 
 <p align="center">

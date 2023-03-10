@@ -13,7 +13,7 @@
 3. Click on the "Install from URL" subsection 
 4. Paste `https://github.com/AIEPhoenix/sd-webui-stylish-theme.git` into the URL spot, and install
 5. Go to "Installed" subsection and click "Apply and restart UI"
-6. Configure the theme from the "Settings" tab under "Catppuccin Theme", afterwards you must "Apply Settings" and "Reload UI"
+6. Configure the theme from the "Settings" tab under "Stylish Theme", afterwards you must "Apply Settings" and "Reload UI"
 
 
 ## 🙋 FAQ

@@ -1,33 +1,35 @@
-:root, *, #context-menu{
-  --rosewater: #dc8a78;
-  --flamingo: #dd7878;
-  --pink: #ea76cb;
-  --mauve: #8839ef;
-  --red: #d20f39;
-  --maroon: #e64553;
-  --peach: #fe640b;
-  --yellow: #df8e1d;
-  --green: #40a02b;
-  --teal: #179299;
-  --sky: #04a5e5;
-  --sapphire: #209fb5;
-  --blue: #1e66f5;
-  --lavender: #7287fd;
-  --text: #4c4f69;
-  --subtext1: #5c5f77;
-  --subtext0: #6c6f85;
-  --overlay2: #7c7f93;
-  --overlay1: #8c8fa1;
-  --overlay0: #9ca0b0;
-  --surface2: #acb0be;
-  --surface1: #bcc0cc;
-  --surface0: #ccd0da;
-  --base: #eff1f5;
-  --mantle: #e6e9ef;
-  --crust: #dce0e8;
-  --shadow: #dbdfef;
-  --accent: var(--maroon);
-   color-scheme: light;
+:root,
+*,
+#context-menu {
+  --rosewater: #f5e0dc;
+  --flamingo: #f2cdcd;
+  --pink: #f5c2e7;
+  --mauve: #cba6f7;
+  --red: #f38ba8;
+  --maroon: #eba0ac;
+  --peach: #fab387;
+  --yellow: #f9e2af;
+  --green: #a6e3a1;
+  --teal: #94e2d5;
+  --sky: #89dceb;
+  --sapphire: #74c7ec;
+  --lavender: #b4befe;
+  --blue: #89b4fa;
+  --text: #cdd6f4;
+  --subtext1: #bac2de;
+  --subtext0: #a6adc8;
+  --overlay2: #9399b2;
+  --overlay1: #7f849c;
+  --overlay0: #6c7086;
+  --surface2: #585b70;
+  --surface1: #45475a;
+  --surface0: #313244;
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --crust: #11111b;
+  --shadow: #010409;
+  --accent: var(--yellow);
+  color-scheme: dark;
 }
 
 select, option {
@@ -606,7 +608,7 @@ input[type="range"]:disabled::-moz-range-thumb {
 }
 /* ------------------------------------------------------ 调整部分TabItem Content Padding 结束 */
 
-/* ------------------------------------------------------ 调整顶部模型选择框的样式 开始 */
+/* ------------------------------------------------------ 调整顶部快捷选择的样式 开始 */
 #setting_sd_model_checkpoint .bilingual__trans_wrapper {
   display: flex;
   flex-direction: row;
@@ -618,7 +620,11 @@ input[type="range"]:disabled::-moz-range-thumb {
 #setting_sd_model_checkpoint .bilingual__trans_wrapper em {
   margin-left: 6px;
 }
-/* ------------------------------------------------------ 调整顶部模型选择框的样式 结束 */
+
+#setting_sd_vae .bilingual__trans_wrapper em {
+  display: none;
+}
+/* ------------------------------------------------------ 调整顶部快捷选择的样式 结束 */
 
 /* ------------------------------------------------------ 调整顶部Tabs 开始 */
 #tabs button.bg-white {
@@ -697,3 +703,9 @@ input[type="range"]:disabled::-moz-range-thumb {
     margin-left: 6px;
 }
 /* ------------------------------------------------------ 调整模板风格 结束 */
+
+/* ------------------------------------------------------ 调整设置样式 开始 */
+#settings_show_all_pages {
+  background: none;
+}
+/* ------------------------------------------------------ 调整设置风格 结束 */

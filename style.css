@@ -627,7 +627,7 @@ input[type="range"]:disabled::-moz-range-thumb {
 /* ------------------------------------------------------ 调整顶部快捷选择的样式 结束 */
 
 /* ------------------------------------------------------ 调整顶部Tabs 开始 */
-#tabs button.bg-white {
+#tabs button.selected {
   border-bottom: 2px solid var(--accent) !important;
 }
 /* ------------------------------------------------------ 调整顶部Tabs 结束 */
